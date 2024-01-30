@@ -31,6 +31,12 @@
       width: 100vw;
       position: relative;
   }
+
+  .acmlogo{
+    /* margin-top: 100px; */
+    width: 1%;
+  }
+
   #page1>video{
       height: 100%;
       width: 100%;
@@ -46,8 +52,9 @@
       width: 100vw;
   }
   #page1>nav>img{
-      margin-top: -1.7vw;
-      width: 9%;
+      margin-top: -1vw;
+      width: 4%;
+      /* margin-left: 10px; */
   }
   #right-nav>button{
       padding: 10px 20px;
@@ -90,12 +97,12 @@
   }
   .bottom-page1-inner>button{
       margin-top: 5px;
-      padding: 1vw 2vw;
+      padding: 0.9vw 1.7vw;
       border: none;
       border-radius: 50px;
       background-color: #02010a;
       color: #fff;
-      font-size: 1.1vw;
+      font-size: 1vw;
       font-family: Jost;
   }
   .bottom-page1-inner>h4{
@@ -115,6 +122,7 @@
       padding: 0vw 8vw;
       color: #fff;
       background-color: #140152;
+      /* background-color: #5d3ccf; */
       /* margin-bottom: 75px; */
   }
   #page2>h2{
@@ -148,10 +156,11 @@
       justify-content: center;
       flex-direction: column;
       position: relative;
-      height: 100vh;
+      height: 90vh;
       width: 100vw;
       background-color: #02010a;
       font-family: Jost;
+      margin-bottom: -40px;
   }
   #page4>h3{
       margin-left: 15vw;
@@ -167,12 +176,12 @@
       font-weight: 100;
       color: #ffffff81;
   }
-  #page5{
+  /* #page5{
       position: relative;
       height: 50vh;
       width: 100vw;
       background-color: #02010a;
-  }
+  } */
   /* #page5>canvas{
       position: relative;
       max-width: 100vw;
@@ -183,11 +192,11 @@
       align-items: start;
       justify-content: center;
       position: relative;
-      height: 100vh;
+      height:40vh;
       width: 100vw;
       background-color: #02010a;
       flex-direction: column;
-      font-family: a;
+      font-family: Jost;
   }
   #page6>h3{
       margin-left: 15vw;
@@ -325,7 +334,7 @@
       flex-direction: column;
       height: 33.3%;
       width: 100%;
-      font-family: a;
+      font-family: Jost;
       color: #fff;
   }
   .right10-inner>h1{
@@ -342,12 +351,12 @@
       height: 110vh;
       width: 100vw;
       background-color: #02010a;
-      font-family: a;
+      font-family: Jost;
   }
   #page11>h1{
       position: absolute;
-      top: 5%;
-      left: 10%;
+      top: 1%;
+      left: 5%;
       font-size: 4vw;
       color: #ffffff;
       font-weight: 100;
@@ -403,7 +412,7 @@
       /* justify-content:; */
       right: 10%;
       color: #fff;
-      font-family: a;
+      font-family: Jost;
   }
   .page12-inner>h1{
       font-size: 5vw;
@@ -413,8 +422,15 @@
       font-size: 1.3vw;
   }
 
+  .page12-photo1{
+    align-items: center;
+    justify-content: center;
+  }
   .sponsor1{
-    width: 50%;
+    width: 10%;
+  }
+  .sponsor2{
+    width: 10%;
   }
   
   
@@ -463,7 +479,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0vw 5vw;
-      font-family: a;
+      font-family: Jost;
       height: 33.3%;
       width: 100%;
       color: #fff;

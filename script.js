@@ -71,8 +71,7 @@ window.addEventListener("resize", function () {
 });
 
 function files(index) {
-  var data = `
-  ./infutuem vid 2_000.png
+  var data = `  ./infutuem vid 2_000.png
   ./infutuem vid 2_001.png
   ./infutuem vid 2_002.png
   ./infutuem vid 2_003.png
@@ -231,12 +230,11 @@ function files(index) {
   ./infutuem vid 2_156.png
   ./infutuem vid 2_157.png
   ./infutuem vid 2_158.png
-  ./infutuem vid 2_159.png
- `;
+  ./infutuem vid 2_159.png`;
   return data.split("\n")[index];
 }
 
-const frameCount = 147;
+const frameCount = 159;
 
 const images = [];
 const imageSeq = {
