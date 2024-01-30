@@ -445,92 +445,92 @@ gsap.to("#page6>h1>span",{
 
 
 
-function canvas2(){
-  const canvas = document.querySelector("#page7>canvas");
-const context = canvas.getContext("2d");
+// function canvas2(){
+//   const canvas = document.querySelector("#page7>canvas");
+// const context = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-
-window.addEventListener("resize", function () {
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-render();
-});
-
-function files(index) {
-// Put FRAMES HERE
-var data = `
+// canvas.width = window.innerWidth;
+// canvas.height = window.innerHeight;
 
 
-`;
-return data.split("\n")[index];
-}
+// window.addEventListener("resize", function () {
+// canvas.width = window.innerWidth;
+// canvas.height = window.innerHeight;
+// render();
+// });
 
-const frameCount = 136;
+// function files(index) {
+// // Put FRAMES HERE
+// var data = `
 
-const images = [];
-const imageSeq = {
-frame: 1,
-};
 
-for (let i = 0; i < frameCount; i++) {
-const img = new Image();
-img.src = files(i);
-images.push(img);
-}
+// `;
+// return data.split("\n")[index];
+// }
 
-gsap.to(imageSeq, {
-frame: frameCount - 1,
-snap: "frame",
-ease: `none`,
-scrollTrigger: {
-  scrub: .5,
-  trigger: `#page7`,
-  start: `top top`,
-  end: `250% top`,
-  scroller: `#main`,
-},
-onUpdate: render,
-});
+// const frameCount = 136;
 
-images[1].onload = render;
+// const images = [];
+// const imageSeq = {
+// frame: 1,
+// };
 
-function render() {
-scaleImage(images[imageSeq.frame], context);
-}
+// for (let i = 0; i < frameCount; i++) {
+// const img = new Image();
+// img.src = files(i);
+// images.push(img);
+// }
 
-function scaleImage(img, ctx) {
-var canvas = ctx.canvas;
-var hRatio = canvas.width / img.width;
-var vRatio = canvas.height / img.height;
-var ratio = Math.max(hRatio, vRatio);
-var centerShift_x = (canvas.width - img.width * ratio) / 2;
-var centerShift_y = (canvas.height - img.height * ratio) / 2;
-ctx.clearRect(0, 0, canvas.width, canvas.height);
-ctx.drawImage(
-  img,
-  0,
-  0,
-  img.width,
-  img.height,
-  centerShift_x,
-  centerShift_y,
-  img.width * ratio,
-  img.height * ratio
-);
-}
-ScrollTrigger.create({
+// gsap.to(imageSeq, {
+// frame: frameCount - 1,
+// snap: "frame",
+// ease: `none`,
+// scrollTrigger: {
+//   scrub: .5,
+//   trigger: `#page7`,
+//   start: `top top`,
+//   end: `250% top`,
+//   scroller: `#main`,
+// },
+// onUpdate: render,
+// });
 
-trigger: "#page7",
-pin: true,
-scroller: `#main`,
-start: `top top`,
-end: `250% top`,
-});
-}
-canvas2()
+// images[1].onload = render;
+
+// function render() {
+// scaleImage(images[imageSeq.frame], context);
+// }
+
+// function scaleImage(img, ctx) {
+// var canvas = ctx.canvas;
+// var hRatio = canvas.width / img.width;
+// var vRatio = canvas.height / img.height;
+// var ratio = Math.max(hRatio, vRatio);
+// var centerShift_x = (canvas.width - img.width * ratio) / 2;
+// var centerShift_y = (canvas.height - img.height * ratio) / 2;
+// ctx.clearRect(0, 0, canvas.width, canvas.height);
+// ctx.drawImage(
+//   img,
+//   0,
+//   0,
+//   img.width,
+//   img.height,
+//   centerShift_x,
+//   centerShift_y,
+//   img.width * ratio,
+//   img.height * ratio
+// );
+// }
+// ScrollTrigger.create({
+
+// trigger: "#page7",
+// pin: true,
+// scroller: `#main`,
+// start: `top top`,
+// end: `250% top`,
+// });
+// }
+// canvas2()
 
 
 
