@@ -279,27 +279,27 @@
   #page9{
       display: flex;
       position: relative;
-      height: 100vh;
+      height: 90vh;
       width: 100vw;
       /* background-color: #31b9b9; */
       background-color: #02010a;
   }
   .left9{
       height: 100%;
-      width: 40%;
+      width: 60%;
       position: relative;
       font-family: Jost;
   }
   .left9>h1{
       position: absolute;
-      top: 40%;
+      top: 45%;
       right: 0%;
       transform: translateY(-50%);
       font-size: 4.5vw;
       font-weight: 100;
       color: #fff;
       line-height: 1;
-      left:37.5%;
+      left:30.5%;
   }
   .right9{
       height: 100%;
@@ -312,19 +312,21 @@
       border-radius: 10px;
       position: absolute;
       top: 50%;
+      display: flex;
       transform: translateY(-50%);
-      background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+      /* background-image: url(infu2.0-removebg-preview.jpg); */
       background-size: cover;
       left: 7%;
   }
   .page10{
       position: relative;
       max-width: 1200px;
-      margin: 100px auto;
+      margin: 0px auto;
       font-family: Jost;
       /* height: 170vh;
       width: 100vw;
       background-color: #02010a; */
+      color: #fff;
   }
 
   .container{
@@ -369,7 +371,7 @@
 
     .text-box{
         padding: 20px 30px;
-        background: #fff;
+        background: #140152;
         position: relative;
         border-radius: 6px;
         font-size: 15px;
@@ -401,7 +403,7 @@
         position: absolute;
         width: 6px;
         height: 100%;
-        background: #fff; /* or any color that stands out */
+        background: #140152; /* or any color that stands out */
         top: 0;
         left: 50%;
         margin-left: -3px;
@@ -438,7 +440,7 @@
         z-index:1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-left: 15px solid #fff;
+        border-left: 15px solid #b732be;
         right: -15px;
     }
     
@@ -450,7 +452,7 @@
         z-index:1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right: 15px solid #fff;
+        border-right: 15px solid #b732be;
         left: -15px;
     }
 
@@ -627,6 +629,11 @@
       color: #fff;
       font-family: Jost;
       padding: 7vw 10vw;
+  }
+
+  #page13 a{
+    text-decoration: none;
+    color: #fff;
   }
   #page13>h1{
       font-size: 5vw;
