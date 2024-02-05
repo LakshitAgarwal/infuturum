@@ -53,6 +53,11 @@ gsap.to("#page2>h1>span",{
 })
 
 
+// function scrollWin() {
+
+//   window.scrollTo(0, 10000);
+// }
+
 
 // SCROLLABLE VIDEO FUNCTION
 
@@ -161,81 +166,11 @@ function files(index) {
   ./infutuem vid 2_087.png
   ./infutuem vid 2_088.png
   ./infutuem vid 2_089.png
-  ./infutuem vid 2_090.png
-  ./infutuem vid 2_091.png
-  ./infutuem vid 2_092.png
-  ./infutuem vid 2_093.png
-  ./infutuem vid 2_094.png
-  ./infutuem vid 2_095.png
-  ./infutuem vid 2_096.png
-  ./infutuem vid 2_097.png
-  ./infutuem vid 2_098.png
-  ./infutuem vid 2_099.png
-  ./infutuem vid 2_100.png
-  ./infutuem vid 2_101.png
-  ./infutuem vid 2_102.png
-  ./infutuem vid 2_103.png
-  ./infutuem vid 2_104.png
-  ./infutuem vid 2_105.png
-  ./infutuem vid 2_106.png
-  ./infutuem vid 2_107.png
-  ./infutuem vid 2_108.png
-  ./infutuem vid 2_109.png
-  ./infutuem vid 2_110.png
-  ./infutuem vid 2_111.png
-  ./infutuem vid 2_112.png
-  ./infutuem vid 2_113.png
-  ./infutuem vid 2_114.png
-  ./infutuem vid 2_115.png
-  ./infutuem vid 2_116.png
-  ./infutuem vid 2_117.png
-  ./infutuem vid 2_118.png
-  ./infutuem vid 2_119.png
-  ./infutuem vid 2_120.png
-  ./infutuem vid 2_121.png
-  ./infutuem vid 2_122.png
-  ./infutuem vid 2_123.png
-  ./infutuem vid 2_124.png
-  ./infutuem vid 2_125.png
-  ./infutuem vid 2_126.png
-  ./infutuem vid 2_127.png
-  ./infutuem vid 2_128.png
-  ./infutuem vid 2_129.png
-  ./infutuem vid 2_130.png
-  ./infutuem vid 2_131.png
-  ./infutuem vid 2_132.png
-  ./infutuem vid 2_133.png
-  ./infutuem vid 2_134.png
-  ./infutuem vid 2_135.png
-  ./infutuem vid 2_136.png
-  ./infutuem vid 2_137.png
-  ./infutuem vid 2_138.png
-  ./infutuem vid 2_139.png
-  ./infutuem vid 2_140.png
-  ./infutuem vid 2_141.png
-  ./infutuem vid 2_142.png
-  ./infutuem vid 2_143.png
-  ./infutuem vid 2_144.png
-  ./infutuem vid 2_145.png
-  ./infutuem vid 2_146.png
-  ./infutuem vid 2_147.png
-  ./infutuem vid 2_148.png
-  ./infutuem vid 2_149.png
-  ./infutuem vid 2_150.png
-  ./infutuem vid 2_151.png
-  ./infutuem vid 2_152.png
-  ./infutuem vid 2_153.png
-  ./infutuem vid 2_154.png
-  ./infutuem vid 2_155.png
-  ./infutuem vid 2_156.png
-  ./infutuem vid 2_157.png
-  ./infutuem vid 2_158.png
-  ./infutuem vid 2_159.png`;
+  ./infutuem vid 2_090.png`;
   return data.split("\n")[index];
 }
 
-const frameCount = 159;
-
+const frameCount = 90;
 const images = [];
 const imageSeq = {
   frame: 1,
