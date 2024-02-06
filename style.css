@@ -89,6 +89,7 @@
 
   } */
   
+  
   .bottom-page1-inner{
       display: flex;
       align-items: center;
@@ -627,8 +628,10 @@
     position: absolute;
     width: 12%;
     border-radius: 15px;
-    top: 19.8%;
-    left: 34.4%;
+    /* top: 19.8%;
+    left: 34.4%; */
+    top: 76.9%;
+    left: 11.4%;
   }
 
   .sponsor4{
