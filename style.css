@@ -525,7 +525,7 @@
   }
   #page11>h1{
       position: absolute;
-      top: 1%;
+      top: 5%;
       left: 5%;
       font-size: 4vw;
       color: #ffffff;
@@ -578,7 +578,7 @@
   }
   .page12-inner{
       position: absolute;
-      top: 30%;
+      top: 45%;
       /* align-items:center; */
       /* justify-content:; */
       right: 10%;
@@ -618,6 +618,16 @@
     top: 45%;
     left: 10.4%;
 
+  }
+
+  .sponsor3{
+    /* display: inline-block; */
+    /* display: block; */
+    position: absolute;
+    width: 13%;
+    border-radius: 15px;
+    top: 75%;
+    left: 10.4%;
   }
   
   
@@ -710,15 +720,172 @@
 
 .reg{
     text-decoration: none;
-    border: 2px solid #140152;
+    border: 2px solid #ffffff;
     border-radius: 5px;
-    padding: 4px;
+    padding: 7px 16px 7px 16px;
+    color: #ffffff;
 }
 
-/* .reg:hover{
-    
-} */
+.text-box p {
+    margin-bottom: 30px;
+}
 
-.text-box p{
-    margin-bottom: 15px;
+.reg:hover{
+    background-color: #ffffff;
+    color: #140152;
+}
+
+@media only screen and (max-width: 567px) {
+    .bottom-page1{
+        text-align: center;
+        left: 0;
+        width: 100%;
+        top: 45%;
+    }
+    .bottom-page1>h1{
+        font-size: 12vw;
+    }
+    .bottom-page1-inner{
+        display: none;
+    }
+    #page2{
+        height: 60vh;
+    }
+    #page3{
+        display: none;
+    }
+    .pin-spacer{
+        display: none;
+    }
+    #page4{
+        height: 60vh;
+    }
+    #page4>h3{
+        font-size: 24px;
+    }
+    #page4 span{
+        font-size: 12px;
+    }
+    .right9{
+        display: none;
+    }
+    #page9{
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .left9{
+        /* text-align: center; */
+        margin: auto;
+        width: 76%;
+        position: absolute;
+    }
+    .left9>h1{
+        font-size: 7vw;
+    }
+    .page10{
+        margin: 0;
+    }
+    /* #page11>h1 {
+        position: absolute;
+        top: 8%;
+        left: 6%;
+        font-size: 7.5vw;
+    }
+    .page11-inner {
+        display: block; 
+        text-align: center; 
+    }
+
+    .left11,
+    .right11 {
+        width: 100%; 
+    }
+
+    .right11 {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding-top: 2vw;
+        text-align: center; 
+    } */
+
+    #page11 {
+        height: auto; /* Adjust height to auto for dynamic content */
+    }
+
+    #page11>h1 {
+        position: relative;
+        font-size: 7.5vw;
+        text-align: center; /* Center the heading */
+        margin: 12vh 0 7vh 0;
+    }
+
+    .page11-inner {
+        display: block; /* Change to block layout */
+        text-align: center; /* Center the content */
+        margin-bottom: 9vw; /* Add margin for better spacing */
+    }
+
+    .left11 {
+        width: 90%; /* Make the image take full width */
+        border-radius: 0; /* No need for border radius on small screens */
+        overflow: hidden; /* Ensure the image doesn't overflow */
+        margin-right: 10px;
+    }
+
+    .left11>img {
+        width: 100%; /* Make the image take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .right11 {
+        padding-top: 2vw; /* Adjust padding for better spacing */
+        text-align: center; /* Center the text content */
+        width: 100%; /* Make the text take full width */
+        position: static; /* Reset positioning */
+    }
+    .right11>h1{
+        font-size: 2.5vh;
+    }
+    .right11>h4{
+        font-size: 2vh;
+        padding-bottom: 8px;
+    }
+    #page12{
+        height: 50vh;
+    }
+
+    .page12-inner {
+        top: 43%;
+    }
+    .page12-inner h1{
+        /* display: none; */
+        font-size: 7vw;
+        margin-bottom: 7px;
+    }
+    .page12-inner>p {
+        font-size: 2.3vw;
+    }
+
+    #page13{
+        padding: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #page13>h1 {
+        font-size: 7vw;
+        line-height: 2;
+        font-weight: 100;
+    }
+
+    #page13>h2 {
+        /* margin-left: 3px; */
+        /* margin-top: 2px; */
+        font-size: 3vw;
+        line-height: 2;
+        font-weight: 100;
+    }
+
 }
