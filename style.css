@@ -109,6 +109,7 @@
       font-size: 1.7vw;
       font-weight: 100;
       color: #fff;
+      margin-top: -55px;
   }
   #page2{
       display: flex;
@@ -624,10 +625,18 @@
     /* display: inline-block; */
     /* display: block; */
     position: absolute;
+    width: 12%;
+    border-radius: 15px;
+    top: 19.8%;
+    left: 34.4%;
+  }
+
+  .sponsor4{
+    position: absolute;
     width: 13%;
     border-radius: 15px;
-    top: 75%;
-    left: 10.4%;
+    top: 46.5%;
+    left: 34.4%;
   }
   
   
