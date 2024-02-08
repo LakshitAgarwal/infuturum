@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
   }
-  #page2 button{
+  #page4 button{
     padding: 15px 30px;
     border: none;
     background-color: #b732be;
@@ -22,7 +22,7 @@
     font-size: 17px;
     margin: 0 auto 5% auto;
   }
-  #page2 button a{
+  #page4 button a{
     text-decoration: none;
     color: #fff;
   }
@@ -820,6 +820,7 @@
     }
     #page2{
         height: 40vh;
+        display: none;
     }
     #page2>h2{
         margin-top: 5%;
@@ -835,6 +836,7 @@
     }
     #page4>h3{
         font-size: 24px;
+        margin-left: 10vw;
     }
     #page4 span{
         font-size: 12px;
@@ -855,7 +857,7 @@
         position: absolute;
     }
     .left9>h1{
-        font-size: 7vw;
+        font-size: 6vw;
     }
     .page10{
         margin: 0;
