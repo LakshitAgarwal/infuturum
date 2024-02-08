@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Unbounded&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -8,15 +11,30 @@
     height: 100%;
     width: 100%;
   }
+  #page2 button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #b732be;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 1.5vw;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 auto 5% auto;
+  }
+  #page2 button a{
+    text-decoration: none;
+    color: #fff;
+  }
   #main{
       position: relative;
       overflow: hidden;
       background-color: #02010a;
   }
-  @font-face {
-      font-family: Jost;
-      src: url(./jost-variable.ttf);
-  }
+
+  /* @font-face {
+    font-family: 'Poppins', sans-serif;
+  }  */
   @font-face {
       font-family: b;
       src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
@@ -25,6 +43,11 @@
       font-family: c;
       src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
   }
+
+  #page2 h2{
+    font-family: 'Unbounded', sans-serif;
+  }
+
   #page1
   {
       height: 100vh;
@@ -52,18 +75,9 @@
       width: 100vw;
   }
   #page1>nav>img{
-      margin-top: -1vw;
-      width: 4%;
+      margin-top: 1.5vw;
+      width: 6%;
       /* margin-left: 10px; */
-  }
-  #right-nav>button{
-      padding: 10px 20px;
-      border-radius: 50px;
-      background-color: #02010a;
-      border: 1px #fff;
-      color: #fff;
-      font-family: Jost;
-      font-size: 15px;
   }
   .bottom-page1{
       position: absolute;
@@ -165,11 +179,12 @@
       margin-bottom: -40px;
   }
   #page4>h3{
-      margin-left: 15vw;
+      margin-left: 14vw;
       margin-bottom: 2vw;
       font-weight: 100;
       color: #fff;
       font-size: 4.2vw;
+      font-family: 'Unbounded', sans-serif;
   }
   #page4>h1{
       margin-left: 15vw;
@@ -297,11 +312,12 @@
       top: 45%;
       right: 0%;
       transform: translateY(-50%);
-      font-size: 4.5vw;
+      font-size: 4vw;
       font-weight: 100;
       color: #fff;
       line-height: 1;
       left:30.5%;
+      font-family: 'Unbounded', sans-serif;
   }
   .right9{
       height: 100%;
@@ -414,6 +430,17 @@
         /* animation-delay: 43; */
     }    
 
+    #page1>nav>img{
+        margin-top: 1.1vw;
+    width: 4.5%;
+    }
+    #right-nav>img{
+        width: 4%;
+        margin-left: 1270px;
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+
     @keyframes moveline{
         0%{
             height: 0;
@@ -524,6 +551,7 @@
       width: 100vw;
       background-color: #02010a;
       font-family: Jost;
+      margin-bottom: 10%;
   }
   #page11>h1{
       position: absolute;
@@ -532,6 +560,7 @@
       font-size: 4vw;
       color: #ffffff;
       font-weight: 100;
+      font-family: 'Unbounded', sans-serif;
   }
   .page11-inner{
       display: flex;
@@ -565,9 +594,16 @@
   }
   .right11>h4{
       font-weight: 100;
+      font-family: 'Unbounded', sans-serif;
   }
   .right11>h1{
       font-size: 2vw;
+      font-family: 'Unbounded', sans-serif;
+  }
+
+  #sponsor5{
+    width: 16%;
+    margin-left: 10%;
   }
   
   
@@ -590,9 +626,12 @@
   .page12-inner>h1{
       font-size: 5vw;
       font-weight: 100;
+      font-family: 'Unbounded', sans-serif;
+    padding-bottom: 12px;
   }
   .page12-inner>p{
       font-size: 1.3vw;
+      margin-left: 7px;
   }
 
   /* .page12-photos{
@@ -661,6 +700,8 @@
       font-size: 5vw;
       line-height: 1;
       font-weight: 100;
+      font-family: 'Unbounded', sans-serif;
+      padding-bottom: 10px;
   }
   #page13>h2{
     margin-left: 3px;
@@ -754,14 +795,34 @@
         width: 100%;
         top: 45%;
     }
+
+    #page1>nav>img{
+        /* margin-top: 1vw; */
+        width: 15%;
+        /* margin-left: 10px; */
+    }
+
+    #page1>nav>img{
+        width: 10%;
+    }
+
+    #right-nav>img{
+        width: 10%;
+        margin-left: 275px;
+    }
+
     .bottom-page1>h1{
         font-size: 12vw;
+        font-family: 'Unbounded', sans-serif;
     }
     .bottom-page1-inner{
         display: none;
     }
     #page2{
-        height: 60vh;
+        height: 40vh;
+    }
+    #page2>h2{
+        margin-top: 5%;
     }
     #page3{
         display: none;
@@ -832,6 +893,7 @@
         font-size: 7.5vw;
         text-align: center; /* Center the heading */
         margin: 12vh 0 7vh 0;
+        font-family: 'Unbounded', sans-serif;
     }
 
     .page11-inner {
