@@ -17,10 +17,9 @@
     background-color: #b732be;
     color: #fff;
     border-radius: 50px;
-    margin-top: 1.5vw;
     font-weight: bold;
     font-size: 17px;
-    margin: 0 auto 5% auto;
+    margin: 10px auto 5% auto;
   }
   #page4 button a{
     text-decoration: none;
@@ -35,7 +34,7 @@
   /* @font-face {
     font-family: 'Poppins', sans-serif;
   }  */
-  @font-face {
+  /*@font-face {
       font-family: b;
       src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
   }
@@ -43,6 +42,8 @@
       font-family: c;
       src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
   }
+
+   */
 
   #page2 h2{
     font-family: 'Unbounded', sans-serif;
@@ -87,9 +88,9 @@
       left: 10%;
   }
   .bottom-page1>h1{
-      font-family: Jost;
+      font-family: Unbounded;
       font-size: 5vw;
-      font-weight: 100;
+      font-weight: bold;
       line-height: 1;
       color: #fff;
   }
@@ -108,7 +109,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-family: Jost;
+      font-family: Unbounded;
   }
   .bottom-page1-inner>button{
       margin-top: 6px;
@@ -118,7 +119,7 @@
       background-color: #02010a;
       color: #fff;
       font-size: 1vw;
-      font-family: Jost;
+      font-family: Unbounded;
   }
   .bottom-page1-inner>h4{
       font-size: 1.7vw;
@@ -129,7 +130,6 @@
   #page2{
       display: flex;
       align-items: start;
-      font-family: Jost;
       justify-content: center;
       flex-direction: column;
       height: 95vh;
@@ -150,6 +150,7 @@
       line-height: 1.3;
       width: 90%;
       font-size: 3.2vw;
+      font-family: Unbounded;
       /* font-size: 54px; */
       color: #dadada69;
   }
@@ -192,6 +193,7 @@
       font-size: 2vw;
       font-weight: 100;
       color: #ffffff81;
+      font-family: Unbounded;
   }
   /* #page5{
       position: relative;
@@ -453,10 +455,12 @@
 
     .text-box h2{
         font-weight: 600;
+        font-family: Unbounded;
     }
     .text-box small{
         display: inline-block;
         margin-bottom: 15px;
+        font-family: Unbounded;
         
     }
 
@@ -621,7 +625,7 @@
       /* justify-content:; */
       right: 10%;
       color: #fff;
-      font-family: Jost;
+      font-family: Unbounded;
   }
   .page12-inner>h1{
       font-size: 5vw;
@@ -709,6 +713,7 @@
     font-size: 2vw;
     line-height: 1;
     font-weight: 100;
+      font-family: Unbounded;
 }
   #page13>button{
       padding: 15px 30px;
@@ -719,6 +724,7 @@
       margin-top: 1.5vw;
       font-weight: bold;
       font-size: 17px;
+      font-family: Unbounded;
   }
   
   #page2 button{
@@ -784,6 +790,7 @@
 
 .text-box p {
     margin-bottom: 30px;
+    font-family: Unbounded;
 }
 
 .reg:hover{
