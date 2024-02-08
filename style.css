@@ -721,6 +721,9 @@
       font-size: 17px;
   }
   
+  #page2 button{
+    display: none;
+  }
   
   #page14{
       position: relative;
