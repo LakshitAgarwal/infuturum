@@ -5,8 +5,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
+body{
+  overflow: hidden;
+}
 
 .showPage navbar h1{
   padding-top: 25px;
