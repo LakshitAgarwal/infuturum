@@ -66,3 +66,27 @@
   left: calc(-50vw + 50%);
   max-height: 670px;
 }
+
+@media only screen and (max-width: 567px){
+  .showPage hero{
+    padding-top: 150px;
+  }
+  .showPage navbar h1{
+    font-size: 2.5rem;
+    margin-top: 5%;
+  }
+
+  .showPage{
+    text-align: center;
+    margin: auto;
+  }
+
+  .showPage a {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35%;
+  }
+  .showPage p {
+    font-size: 1rem;
+  }
+}
