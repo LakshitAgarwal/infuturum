@@ -19,7 +19,10 @@
     border-radius: 50px;
     font-weight: bold;
     font-size: 17px;
-    margin: 10px auto 5% auto;
+    margin-top: 15px;
+      align-items: center;
+      margin-left: 45vw;
+      display: none;
   }
   #page4 button a{
     text-decoration: none;
@@ -786,6 +789,7 @@
     border-radius: 5px;
     padding: 7px 16px 7px 16px;
     color: #ffffff;
+    font-family: Unbounded;
 }
 
 .text-box p {
@@ -950,9 +954,13 @@
         /* display: none; */
         font-size: 7vw;
         margin-bottom: 7px;
+        margin-left: 25px;
+        margin-top: -10px;
     }
     .page12-inner>p {
         font-size: 2.3vw;
+        margin-left: 25px;
+        margin-right: -25px;
     }
 
     #page13{
