@@ -71,6 +71,14 @@ body{
   max-height: 670px;
 }
 
+#rules{
+  text-align: left;
+  margin-top:50px;
+  margin-right:350px;
+  margin-left: 90PX;
+  margin-bottom: 120px;
+  
+}
 @media only screen and (max-width: 567px){
   .showPage hero{
     padding-top: 150px;
@@ -92,5 +100,13 @@ body{
   }
   .showPage p {
     font-size: 1rem;
+  }
+  .showPage #rules{
+    /* padding-right: 90px; */
+    padding-left: 220px;
+    padding-top: 165px;
+    width: 480px;
+    font-size: 10px;
+    /* margin-right: 0px; */
   }
 }
